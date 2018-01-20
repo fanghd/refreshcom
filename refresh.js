@@ -11,7 +11,7 @@ var MyScrollComponent = function (option, callbackfun) {
 				var _this = this;
 				this.obj = document.getElementById(option.id);
 				this.freshnotice,
-					this.fontsize = option.fontsize >= 15 ? option.fontsize : 15;
+				this.fontsize = option.fontsize ? option.fontsize : 15;
 				this.obj.style.fontsize = this.fontsize + "px";
 				option.style = option.style ? option.style : "ANDROID_1";
 				document.addEventListener('touchstart', domtouched, false);
