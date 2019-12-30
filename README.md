@@ -1,7 +1,6 @@
 # refreshcomponent
 an refresh component for javascript
 
-  目前只支持编写的一种风格，本人canvas玩的不6，平常工作比较忙，业余时间才能研究，画不同的效果，欢迎各位给出各种建议
 
   使用方法：
      1、MyScrollComponent(options,callback);
